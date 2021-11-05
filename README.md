@@ -35,7 +35,7 @@ install php with this command
 $ sudo apt-get install php7.3-fpm
 ```
 
-then, uncomment this line 'cgi.fix_pathinfo=1' with this command
+then, uncomment this line 'cgi.fix_pathinfo=1' inside the file php.ini
 ```
 # vim /etc/php/7.3/fpm/php.ini
 ```
