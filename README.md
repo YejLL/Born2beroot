@@ -41,4 +41,4 @@ then, uncomment this line 'cgi.fix_pathinfo=1' with this command
 ```
 <img width="476" alt="스크린샷 2021-11-02 19 32 33" src="https://user-images.githubusercontent.com/80348069/139927048-f1a68d00-3ab1-4784-8356-b147eb88cf53.png">
 
-
+in this configuration file of lighttpd, 
