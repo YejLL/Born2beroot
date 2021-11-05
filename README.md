@@ -181,7 +181,7 @@ write a command to change your current ip address
 update wp_options set option_value='http://(current ip address)' where option_id<3;
 ```
 
-now, you can see the ip address was changed
+now, you can see the ip address was successfully changed
 ```
 select * from wp_options where option_id<3;
 ```
