@@ -66,3 +66,27 @@ $ sudo vim /etc/lighttpd/lighttpd.conf
 ```
 
 <img width="713" alt="스크린샷 2021-11-02 19 28 59" src="https://user-images.githubusercontent.com/80348069/140537052-a75492dd-52d7-4757-b9c6-39d42448b890.png">
+
+
+**If you want to know whether php was successfully linked, make a file info.php on /var/www/html**
+```
+$ sudo vim /var/www/html/info.php
+```
+and write like this photo on your file info.php
+
+<img width="238" alt="스크린샷 2021-11-05 16 46 42" src="https://user-images.githubusercontent.com/80348069/140539678-d7d4cb52-5bf7-424e-84d5-5dfa0ee9ddb2.png">
+
+
+## Born2beroot bonus part3. Installation Maria DB
+
+Install maria db server via this command
+```
+$ sudo apt install mariadb-server
+```
+
+if you want to know whether maria db was successfully installed, you can verify with this command
+```
+$ dpkg -l | grep mariadb-server
+```
+
+
