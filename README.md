@@ -148,6 +148,7 @@ EXIT;
 **GRANT ALL ON ~... WITH GRANT OPTION; -> give a full access to DB that you created**
 
 
+
 ## Born2beroot bonus Problems encountered
 
 I worked on my labtop and i should take a trip with it. but when i verified a wordpress site, i recognized that my ip address was changed. In this case, you can not access to your wordpress site with your previous ip address. so, i changed my ip address on virtual machine.
